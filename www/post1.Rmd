@@ -1,5 +1,4 @@
 ---
-title: "My first story"
+title: "Project Draft 1"
 ---
 
-It was a dark and stormy night...

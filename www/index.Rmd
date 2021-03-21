@@ -1,19 +1,26 @@
 ---
-title: "My website"
+title: "Capstone Website for EdAnalytics"
 output:
   html_document:
     toc: false
 ---
 
-Write stuff in Markdown here. Like **bold** things and *italic* things. 
+**Project Description**
 
+Education Analytics has collected data from the Departments of Education across most states, including but not limited to: enrollment, demographic, achievement, and proficiency data. We are interested in other community factors that relate to school data, such as local economic status or postsecondary outcomes. Possible public data sources that could be useful in this project are the Census or CRDC. The main goal of this project is to find and link community factors to the public education data that we will supply, then run analyses to compare schools and model external factors to student outcomes. As part of the final product, we are envisioning a short technical report that summarizes the new data sources, cleaning and analytic methods, and findings. Additionally, we are looking for visualizations, whether they be static (such as a pdf from a markdown), in a web application (such as a shiny app), or a map.
 And images:
 
-![](https://media.giphy.com/media/1hqYk0leUMddBBkAM7/giphy.gif)
+**Logo**
+<center>
 
-And don't forget about R code:
+![](https://raw.githubusercontent.com/sds-capstone/edanalytics/main/Logo.png?token=ALDYD47P62CSSUFUKVXTGZLAMDCBA)
 
-```{r}
-knitr::kable(mtcars)
-```
+<center>
+
+**Members:**
+Hana Hirano,
+ Sakaiza Rasolofomanana Rajery,
+ Rachel Yan,
+ Rekik Worku, and
+ Olivia Handoko
 
