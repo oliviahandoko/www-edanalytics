@@ -11,7 +11,7 @@
 
 
 
-<title>notes</title>
+<title>Notes</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -398,12 +398,36 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">notes</h1>
+<h1 class="title toc-ignore">Notes</h1>
 
 </div>
 
 
-<p>blah blah blah</p>
+<p><strong>Information about perpupilma_2019</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>Has 1849 rows which represent schools</p></li>
+<li><p>Has five variables: <strong>district_id, district_name, ea_ccd_ncessch, school_name, per_pupil_spending</strong></p>
+<ul>
+<li><strong>district_id</strong>: ID given to each school district</li>
+<li><strong>district_name</strong>: name of each district</li>
+<li><strong>ea_ccd_ncessch</strong>: ID for each school assigned by the NCES</li>
+<li><strong>per_pupil_spending</strong>: total district spending by each school divided by the number of students attending that school</li>
+</ul></li>
+</ol>
+<hr />
+<ol style="list-style-type: decimal">
+<li>Pulled information about per pupil spending from this dataset
+<ul>
+<li><a href="https://www.doe.mass.edu/finance/statistics/school-ppx.xlsx" class="uri">https://www.doe.mass.edu/finance/statistics/school-ppx.xlsx</a>
+<ul>
+<li>From the “All Schools” spreadsheet, took out these variables: <strong>districtcode</strong> (column A), <strong>district</strong> (column B), <strong>school name</strong> (column D), and <strong>total per pupil spending for each school in each district</strong> (column AF)</li>
+</ul></li>
+<li>Moved those variables into a new spreadsheet and also manually added “eea_ccd_ncessch” to new “perpupilma_2019” dataset for each school from the EA dataset
+<ul>
+<li>This is to make joining the dataset easier</li>
+</ul></li>
+</ul></li>
+</ol>
 
 
 

@@ -1,5 +1,23 @@
 ---
-title: "notes"
+title: "Notes"
 ---
 
-blah blah blah
+**Information about perpupilma_2019**
+
+  1. Has 1849 rows which represent schools 
+  
+  2. Has five variables: **district_id, district_name, ea_ccd_ncessch, school_name, per_pupil_spending**
+  
+      * **district_id**: ID given to each school district 
+      * **district_name**: name of each district 
+      * **ea_ccd_ncessch**: ID for each school assigned by the NCES
+      * **per_pupil_spending**: total district spending by each school divided by the number of students attending that school
+      
+_________________________________________________________________________________________________________________________
+
+  1. Pulled information about per pupil spending from this dataset 
+      * https://www.doe.mass.edu/finance/statistics/school-ppx.xlsx
+          * From the "All Schools" spreadsheet, took out these variables: **districtcode** (column A), **district** (column B), **school name** (column D), and **total per pupil spending for each school in each district** (column AF)
+      * Moved those variables into a new spreadsheet and also manually added "eea_ccd_ncessch" to new "perpupilma_2019" dataset for each school from the EA dataset 
+          * This is to make joining the dataset easier 
+      
