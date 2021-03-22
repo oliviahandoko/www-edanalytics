@@ -25,7 +25,7 @@ navbar:
 
 output:
   html_document:
-    theme: iris
+    theme: lumen
     highlight: pygments
     toc: true
     toc_float: true
